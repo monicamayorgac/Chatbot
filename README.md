@@ -4,7 +4,7 @@ A Chatbot designed to assist Biomedical Engineering students by analyzing semina
 
 The system uses **Google Gemini 2.0 Flash** for intelligence and **Local Embeddings** for privacy and performance.
 
-## 🚀 Features
+##  Features
 
 *  PDF Analysis: Upload multiple PDF documents (Seminar guidelines, scientific papers, etc.).
 *  RAG Architecture: Retrieves specific chunks of text relevant to the user's question.
@@ -49,7 +49,7 @@ You need a Google AI Studio API Key to run this project.
 1.  Get your key here: [Google AI Studio](https://aistudio.google.com/app/apikey)
 2.  When running the app, enter the key in the sidebar.
 
-## ▶️ Usage
+##  Usage
 
 Run the Streamlit application:
 
