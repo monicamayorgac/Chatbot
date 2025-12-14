@@ -26,7 +26,7 @@ The system uses **Google Gemini 2.0 Flash** for intelligence and **Local Embeddi
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/monicamayorgac/Chatbot.git](https://github.com/monicamayorgac/Chatbot.git)
+    git clone https://github.com/monicamayorgac/Chatbot.git
     cd Chatbot
     ```
 
