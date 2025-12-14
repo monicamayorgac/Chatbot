@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+Sammy/
+venv/
+env/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore your API Key (Security!)
+.env
