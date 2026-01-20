@@ -36,7 +36,7 @@ The system uses **Google Gemini 2.0 Flash** for intelligence and **Local Embeddi
 
 ```bash
 conda create -n 
-conda activate 
+conda activate
 
 #### Option B: Using Virtual Environment (venv)
 
