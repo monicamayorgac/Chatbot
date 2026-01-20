@@ -37,6 +37,7 @@ The system uses **Google Gemini 2.0 Flash** for intelligence and **Local Embeddi
 ```bash
 conda create -n 
 conda activate
+```
 
 #### Option B: Using Virtual Environment (venv)
 
@@ -44,10 +45,12 @@ conda activate
 python -m venv venv
 source venv/bin/activate  # On Mac/Linux
 # venv\Scripts\activate   # On Windows
+```
 
 ##  Configuration
 
 You need a Google AI Studio API Key to run this project.
+
 ### Get your API Key
 
 1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey)
