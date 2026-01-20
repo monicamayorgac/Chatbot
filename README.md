@@ -34,9 +34,10 @@ The system uses **Google Gemini 2.0 Flash** for intelligence and **Local Embeddi
 #### Option A: Using Conda (Recommended)
 
 ```bash
-conda create -n 
-conda activate
+conda create -n `name`  python=3.10 -y
+conda activate `name`
 ```
+Replace `name` with your actual environment name.
 
 #### Option B: Using Virtual Environment (venv)
 
