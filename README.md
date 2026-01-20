@@ -29,7 +29,7 @@ The system uses **Google Gemini 2.0 Flash** for intelligence and **Local Embeddi
     git clone https://github.com/monicamayorgac/Chatbot.git
     ```
 
-2.  ** Set up your environment(Optional but recommended):**
+2.  **Set up your environment(Optional but recommended):**
     
 #### Option A: Using Conda (Recommended)
 
