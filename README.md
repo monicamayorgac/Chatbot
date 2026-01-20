@@ -27,7 +27,6 @@ The system uses **Google Gemini 2.0 Flash** for intelligence and **Local Embeddi
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/monicamayorgac/Chatbot.git
-    cd Chatbot
     ```
 
 2.  ** Set up your environment(Optional but recommended):**
