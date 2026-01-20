@@ -30,28 +30,51 @@ The system uses **Google Gemini 2.0 Flash** for intelligence and **Local Embeddi
     cd Chatbot
     ```
 
-2.  **Create a Virtual Environment (Optional but recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Mac/Linux
-    # venv\Scripts\activate  # On Windows
-    ```
+2.  ** Set up your environment(Optional but recommended):**
+    
+#### Option A: Using Conda (Recommended)
 
-3.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+conda create -n 
+conda activate 
+
+#### Option B: Using Virtual Environment (venv)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Mac/Linux
+# venv\Scripts\activate   # On Windows
 
 ##  Configuration
 
 You need a Google AI Studio API Key to run this project.
+### Get your API Key
 
-1.  Get your key here: [Google AI Studio](https://aistudio.google.com/app/apikey)
-2.  When running the app, enter the key in the sidebar.
+1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey)
+2. Create a new API key
+3. Copy it
+
+```bash
+# Create the secrets folder and file
+mkdir -p .streamlit
+echo 'GOOGLE_API_KEY = "your_api_key_here"' > .streamlit/secrets.toml
+```
+
+Replace `your_api_key_here` with your actual key.
 
 ##  Usage
 
 Run the Streamlit application:
+### Quick Start (Conda)
 
 ```bash
+conda activate chatbot_project
 streamlit run seminar_bot.py
+```
+
+### Quick Start (venv)
+
+```bash
+source venv/bin/activate
+streamlit run seminar_bot.py
+```
